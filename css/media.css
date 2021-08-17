@@ -48,6 +48,11 @@
         flex-direction: unset!important;
         justify-content: center;
     }
+    .navbar-toggler:focus{
+        box-shadow: 0 0 0 0 0px!important;
+        outline:none!important;
+        border: none!important;
+    }
 
     .navbar-toggler-icon{
         line-height: 30px;
