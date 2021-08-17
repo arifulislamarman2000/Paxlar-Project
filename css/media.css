@@ -1,0 +1,242 @@
+@media(max-width:1199px){
+    .navbar-brand img{
+        width: 100px;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+    .banner-section .container h1 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .banner-inner {
+        padding: 30px 0;
+    }
+    .green.right {
+        right: -85px;
+    }
+    .green.left {
+        left: -85px;
+    }
+    .left {
+        left: 30px;
+    }
+    .right {
+        right: 30px;
+    }
+    .top {
+        top: -90px;
+    }
+    .social-link li a{
+        height: 35px;
+        width: 35px;
+        line-height: 35px;
+    }
+}
+@media(max-width:991px){
+    .top-header .nav-item{
+        width: unset;
+    }
+    .nav-item{
+        width: 25%;
+    }
+    .nav-link{
+        text-align: center;
+    }
+    .navbar-nav{
+        flex-wrap: wrap;
+        flex-direction: unset!important;
+        justify-content: center;
+    }
+
+    .navbar-toggler-icon{
+        line-height: 30px;
+    }
+    .feature{
+        height: 300px;
+        width: 400px;
+        padding: 65px 30px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .step-section .container .row .or{
+        order: 1;
+    }
+    .step {
+        text-align: center;
+    }
+    .step-section .header{
+        text-align: center;
+    }
+    .step-section .header::after{
+        margin: auto;
+    }
+    .spider-box{
+        display: none;
+    }
+    .card {
+        border-radius: 10px;
+        height: 585px;
+        width: 500px;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    footer{
+        text-align: center;
+    }
+    .widget ul{
+        justify-content: center;
+    }
+    .widget h4::after{
+        margin: auto;
+        margin-top: 10px;
+    }
+    .bottom-footer .or{
+       order: 1;
+    }
+    .widget h4{
+        margin: 40px 0;
+    }
+}
+@media(max-width:767px){
+    .banner-inner{
+        padding: 10px 0;
+    }
+    .banner-inner h5{
+        font-size: 14px;
+    }
+    .banner-inner h6{
+        font-size: 10px;
+    }
+    .btn-custom{
+        font-size: 10px;
+    }
+    .banner-section .container h1{
+        font-size: 30px;
+    }
+    .transaction-section h2{
+        font-size: 30px;
+    }
+    .transaction-section p{
+        font-size: 14px;
+    }
+    .bottom-footer ul li a{
+        padding: 0 20px;
+        font-size: 17px;
+    }
+    .bottom-footer ul{
+        margin-bottom: 20px;
+    }
+
+}
+@media(max-width:575px){
+    .banner-inner{
+        display: none;
+    }
+}
+@media(max-width:499px){
+    .top-header ul li a{
+        font-size: 9px;
+    }
+    .top-header p{
+        font-size: 9px;
+    }
+    .navbar-nav{
+        flex-direction: column!important;
+        text-align: center;;
+    }
+    .navbar-nav .nav-item{
+        width: 100%;
+    }
+    .feature {
+        height: 340px;
+        width: 240px;
+        padding: 50px 14px;
+    }
+    .btn-custom {
+        font-size: 7px;
+        margin: 0 5px;
+    }
+    .banner-section .container h1{
+        font-size: 19px;
+    }
+    .feature h3{
+        font-size: 13px;
+    }
+    .feature p{
+        font-size: 12px;
+    }
+    .feature {
+        height: 272px;
+        width: 240px;
+        padding: 38px 14px;
+    }
+    .feature-section{
+        background-color: #efefef;
+    }
+    .blog-section .header{
+        padding: 30px 0;
+    }
+    .header h2{
+        font-size: 19px;
+    }
+    .header{
+        padding: 20px 0;
+    }
+    .header p{
+        font-size: 10px;
+    }
+    .service p{
+        font-size: 12px;
+    }
+    .step-section .header{
+        padding: 10px 0;
+    }
+    .step-section .header h2{
+        font-size: 13px;
+    }
+    .step span {
+        height: 30px;
+        width: 30px;
+    }
+    .step-section h3{
+        font-size: 14px;
+    }
+    .step-section p{
+        font-size: 10px;
+    }
+    .step-image img:last-child{
+        width: 165px;
+    }
+    .contact-section .header{
+        padding: 40px 0;
+    }
+    .card{
+        width: 250px;
+        height: 300px;
+    }
+    .card-body h3{
+        font-size: 10px;
+        margin: 5px 0;
+    }
+    .card-body p{
+        font-size: 7px;
+    }
+    .card-body ul li{
+        font-size: 10px;
+    }
+    .investor-section .header{
+        padding: 20px 0;
+    }
+    .investor-section .header h2{
+        font-size: 15px;
+    }
+    .investor-section .header p{
+        font-size: 8px;
+    }
+    .bottom-footer ul li{
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+}
